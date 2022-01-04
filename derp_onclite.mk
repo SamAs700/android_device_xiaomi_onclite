@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_onclite
+PRODUCT_NAME := derp_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
@@ -29,5 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# ArrowOS additions
-DEVICE_MAINTAINER := bibarub
+
