@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common.mk)
+DERP_BUILDTYPE := Official
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_onclite
